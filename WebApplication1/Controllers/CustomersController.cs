@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
             return View(db.customers.ToList());
         }
 
-
+        // Dummy Comment
         public ActionResult Details(int? id)
         {
             if (id == null)
